@@ -40,8 +40,8 @@ body{
     width: 12%;
 }
 .card-btn:hover{
-    background-color: #fff;
-    color: #D79D6B;
+    background-color: #D79D6B;
+    color: #fff;
 }
 .about-body{
     text-align: center;
@@ -145,7 +145,20 @@ hr{
     width: 80%;
     align-self: center;
 }
-
+.fa{
+    padding: 10px;
+    margin: 8px 2px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #F4D2B4;
+    transition: all 0.3s;
+  }
+  .fa:hover{
+    color: #F4D2B4;
+    border: 1px solid white;
+  }
 
 @media (max-width: 767.98px) and (max-width: 575.98px){
     #banner-img{
