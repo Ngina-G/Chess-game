@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.sub-btn{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    top:0;
+    margin-left: 700%;
+}
+/* navbar */
+.sub-btn:hover{
+    background-color: #fff;
+    color: #D79D6B;
+}
+#contact-link{
+    text-align: center;
+    background-color: #1C2520;
+}
+hr{
+    border: solid 1px #F4D2B4;
+    opacity: 1;
+    width: 80%;
+    align-self: center;
+}
+.fa{
+    padding: 10px;
+    margin: 8px 2px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #F4D2B4;
+    transition: all 0.3s;
+  }
+  .fa:hover{
+    color: #F4D2B4;
+    border: 1px solid white;
+  }
+
+
+  /* footer */

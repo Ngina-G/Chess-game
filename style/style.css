@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
 }
 #banner-img{
     height: 700px;
@@ -135,6 +136,8 @@ width: 50%;
     color: #D79D6B;
     border: none;
 }
+
+
 #contact-link{
     text-align: center;
     background-color: #1C2520;
