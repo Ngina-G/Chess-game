@@ -41,7 +41,9 @@ hr{
     color: #fff;
     border: solid 1px #F4D2B4;
 }
-
+.banner-links{
+    display: show;
+}
 /* footer */
 .fa{
     padding: 10px;
@@ -59,15 +61,17 @@ hr{
   }
 
 
-  @media (max-width: 767.98px) and (max-width: 575.98px){
+@media (max-width: 991.98px) and (max-width: 767.98px) and (max-width: 575.98px){
     .banner-links{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
     }
     .banner-btn{
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         font-size: .5em;
     }
   }
