@@ -135,6 +135,16 @@ width: 50%;
     color: #D79D6B;
     border: none;
 }
+#contact-link{
+    text-align: center;
+    background-color: #1C2520;
+}
+hr{
+    border: solid 1px #F4D2B4;
+    opacity: 1;
+    width: 80%;
+    align-self: center;
+}
 
 
 @media (max-width: 767.98px) and (max-width: 575.98px){
