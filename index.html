@@ -15,8 +15,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Rhythm</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+            <a class="navbar-brand text-white" href="#">Rhythm</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,23 +24,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link text-white " href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Play</a>
+                        <a class="nav-link text-white " href="#">Play</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link text-white " href="#">Contact us</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <button class="btn btn-outline-success mx-sm-5" type="submit">Subscribe</button>
+                <form class="form-inline ">
+                    <button class="btn btn-outline-success sub-btn " type="submit">Subscribe</button>
                 </form>
             </div>
         </nav>
 
         <div class="text-center mx-auto d-block">
-            <img src="/assets/randy-fath-GDLdU80UDko-unsplash.jpg" alt="Responsive image" class="card-img-top img-fluid max:h-250">
+            <img src="/assets/randy-fath-GDLdU80UDko-unsplash.jpg" alt="Responsive image" class="card-img-top img-fluid w-100 " id="banner-img">
             <div class="caption">
                 <h1 class="card-text">Rhythm of the Board</h1>
                 <form action="">
@@ -52,8 +52,33 @@
     </header>
 
     <main>
-        <div class="title">
-            <h2 class="title-text mt-5" style="text-align: center;">Chess isn't always easy but it sure is fun!</h2>
+        <h2 class="title-text mt-5" style="text-align: center; font-weight: 400;">Chess isn't always easy but it sure is fun!</h2>
+        <div class="about-body mr-5 ml-5">
+            <h5 class="about-title mb-3 mt-5">Lorem Ipsum</h5>
+            <p class="about-para mt-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus totam dolore molestiae modi amet aperiam ipsa hic. Libero nobis odio rerum, laudantium fugit iste repellendus dolor laborum veritatis, ipsum accusantium!
+            </p>
+            <p class="about-para mt-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus totam dolore molestiae modi amet aperiam ipsa hic. Libero nobis odio rerum, laudantium fugit iste repellendus dolor laborum veritatis, ipsum accusantium!
+            </p>
+            <p class="about-para mt-lg-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus totam dolore molestiae modi amet aperiam ipsa hic. Libero nobis odio rerum, laudantium fugit iste repellendus dolor laborum veritatis, ipsum accusantium!
+            </p>
+        </div>
+
+        <div class="play-section d-flex flex-row" style="margin-top: 80px;">
+            <div>
+                <img src="/assets/convertkit-d7JpeA8l6RA-unsplash.jpg" alt="" class=" img-fluid h-100 p-lg-4" id="play-image">
+            </div>
+            <div class="play-content d-flex flex-column justify-content-center">
+                <h5 class="mb-3 mt-5">Want to try your hand at Chess?</h5>
+                <p class="play-para">
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+                </p>
+                <form action="">
+                    <button class="btn btn-outline-success  play-btn" type="button">Play Now</button>
+                </form>
+            </div>
         </div>
     </main>
 
