@@ -28,7 +28,7 @@ body{
 /* form */
 .card{
     background-color: #D79D6B;
-    width: 60%;
+    width: 60vw;
     align-self: center;
     margin-left: 200px;
 }
@@ -46,6 +46,21 @@ body{
     border: none;
     border-radius: 6px;
     float: left;
+}
+/* cta section */
+.cta-section{
+    text-align: center;
+    background-color: #F4D2B4;
+}
+.cta-btn1{
+    background-color: #fff;
+    color: #D79D6B;
+    border: none;
+}
+.cta-btn1:hover{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
 }
 
 
@@ -70,9 +85,13 @@ body{
     .card-form{
         display: flex;
         flex-wrap: wrap;
-
     }
     .form-control{
         margin: 10px;
+    }
+    .cta-content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
