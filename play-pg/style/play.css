@@ -173,9 +173,14 @@ width: 50%;
     }
     .description-content{
         text-align: center;
-        width: 100%;
         margin-left: 30px;
         margin-right: 30px;
+    }
+    .demo{
+        display: none;
+    }
+    .demo-script{
+        display: none;
     }
     .cta-content{
         display: flex;
