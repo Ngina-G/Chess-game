@@ -25,3 +25,54 @@ body{
     margin-left: 500px;
     margin-right: 500px;
 }
+/* form */
+.card{
+    background-color: #D79D6B;
+    width: 60%;
+    align-self: center;
+    margin-left: 200px;
+}
+.form-control{
+    border-radius: 0px;
+    border: solid 1px #fff;
+    background-color: transparent;
+}
+.form-control::placeholder{
+    color: #fff;
+}
+.con-btn{
+    background-color: #1C2520;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    float: left;
+}
+
+
+@media (max-width: 991.98px) and (max-width: 767.98px) and (max-width: 575.98px){
+    .main-section{
+        background-color: #1C2520;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .main-title{
+        padding-top: 25px;
+    }
+    .main-content{
+        margin: 0;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+    .card-form{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .form-control{
+        margin: 10px;
+    }
+}
