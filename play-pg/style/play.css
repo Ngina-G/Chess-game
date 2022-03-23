@@ -1,0 +1,195 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.sub-btn{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    top:0;
+    margin-left: 700%;
+}
+/* navbar */
+.sub-btn:hover{
+    background-color: #fff;
+    color: #D79D6B;
+}
+#contact-link{
+    text-align: center;
+    background-color: #1C2520;
+}
+hr{
+    border: solid 1px #F4D2B4;
+    opacity: 1;
+    width: 80%;
+    align-self: center;
+}
+
+
+/* banner */
+.banner{
+    text-align: center;
+}
+.banner-btn{
+    background-color: #fff;
+    color: #D79D6B;
+    border: solid 1px #37383A;
+    border-radius: 6px;
+}
+
+.banner-btn:hover{
+    background-color: #D79D6B;
+    color: #fff;
+    border: solid 1px #F4D2B4;
+}
+.banner-links{
+    display: show;
+}
+
+/* description */
+main{
+    background-image: url(/assets/sophie-louisnard-XQEa0VAzZno-unsplash.jpg);
+}
+.description{
+    background-color: #fff;
+}
+.description-image{
+    width: 600px;
+}
+.description-title{
+    text-align: center;
+}
+.description-content{
+    text-align: justify;
+    width: 80%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.demo{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.demo a {
+    position: absolute;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  }
+  #section02 a span {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #fff;
+    background-color: #F4D2B4;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  #section02 a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+
+/* footer */
+.cta-section{
+    text-align: center;
+    background-color: #F4D2B4;
+}
+.cta-para{
+width: 50%;
+}
+.cta-btn2{
+    background-color: #fff;
+    color: #D79D6B;
+    border: none;
+}
+.cta-btn2:hover{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
+}
+.cta-btn1{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
+}
+.cta-btn1:hover{
+    background-color: #fff;
+    color: #D79D6B;
+    border: none;
+}
+.fa{
+    padding: 10px;
+    margin: 8px 2px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #F4D2B4;
+    transition: all 0.3s;
+  }
+  .fa:hover{
+    color: #F4D2B4;
+    border: 1px solid white;
+  }
+
+
+@media (max-width: 991.98px) and (max-width: 767.98px) and (max-width: 575.98px){
+    .banner-links{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    .banner-btn{
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: .5em;
+    }
+    .description{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .description-image{
+        display: none;
+    }
+    .description-content{
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .demo{
+        display: none;
+    }
+    .demo-script{
+        display: none;
+    }
+    .cta-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .cta-btn1{
+        margin-bottom: 20px;
+    }
+    .cta-para{
+        width: 90%;
+        }
+  }

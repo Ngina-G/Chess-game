@@ -1,0 +1,27 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+}
+.sub-btn{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    top:0;
+    margin-left: 700%;
+}
+/* navbar */
+.sub-btn:hover{
+    background-color: #fff;
+    color: #D79D6B;
+}
+#contact-link{
+    text-align: center;
+    background-color: #1C2520;
+}
+/* main */
+.main-section{
+    background-color: #1C2520;
+    margin-left: 500px;
+    margin-right: 500px;
+}
