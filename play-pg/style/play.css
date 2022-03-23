@@ -164,4 +164,27 @@ width: 50%;
         margin-right: 5px;
         font-size: .5em;
     }
+    .description{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .description-image{
+        display: none;
+    }
+    .description-content{
+        text-align: center;
+        width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .cta-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .cta-btn1{
+        margin-bottom: 20px;
+    }
+    .cta-para{
+        width: 90%;
+        }
   }
