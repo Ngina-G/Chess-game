@@ -19,3 +19,9 @@ body{
     text-align: center;
     background-color: #1C2520;
 }
+/* main */
+.main-section{
+    background-color: #1C2520;
+    margin-left: 500px;
+    margin-right: 500px;
+}
