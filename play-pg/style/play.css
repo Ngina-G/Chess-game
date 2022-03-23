@@ -36,6 +36,7 @@ hr{
     border: solid 1px #37383A;
     border-radius: 6px;
 }
+
 .banner-btn:hover{
     background-color: #D79D6B;
     color: #fff;
@@ -44,7 +45,96 @@ hr{
 .banner-links{
     display: show;
 }
+
+/* description */
+main{
+    background-image: url(/assets/sophie-louisnard-XQEa0VAzZno-unsplash.jpg);
+}
+.description{
+    background-color: #fff;
+}
+.description-image{
+    width: 600px;
+}
+.description-title{
+    text-align: center;
+}
+.description-content{
+    text-align: justify;
+    width: 80%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.demo{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.demo a {
+    position: absolute;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  }
+  #section02 a span {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #fff;
+    background-color: #F4D2B4;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  #section02 a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+
 /* footer */
+.cta-section{
+    text-align: center;
+    background-color: #F4D2B4;
+}
+.cta-para{
+width: 50%;
+}
+.cta-btn2{
+    background-color: #fff;
+    color: #D79D6B;
+    border: none;
+}
+.cta-btn2:hover{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
+}
+.cta-btn1{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
+}
+.cta-btn1:hover{
+    background-color: #fff;
+    color: #D79D6B;
+    border: none;
+}
 .fa{
     padding: 10px;
     margin: 8px 2px;
