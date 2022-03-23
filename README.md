@@ -18,7 +18,7 @@ A web application that intorduces beginners in chess to the dynamic move of the 
 <img  align="center" src="assets/readme/landing.png" alt="Input-form" />
 <br/>
 
-### Check live demonstration <a href="https://ngina-g.github.io/"><strong>here</strong></a>
+### Check live demonstration <a href="https://sparkling-pavlova-c7651e.netlify.app/"><strong>here</strong></a>
 <br>
  
 ## Description
@@ -27,7 +27,7 @@ For many beginners, chess seems overly complicated and unnecessarily difficult. 
 ### How To
 Upon opening the page, the user is greeted with a brief introduction to Chess and using several buttons can navigate to the <strong>Play page</strong>. This is where the user will be introduced to the default and most important piece "the King". From here the user can navigate to different pieces where the layout is similar to that of the king.
 <br>
-There after in each ~piece play page~ , the user can see how the pieces move and intereact with the board to see the valid chess moves for each piece.
+There after in each 'piece play page' , the user can see how the pieces move and intereact with the board to see the valid chess moves for each piece.
 <br> 
 If the user is facing any challenges, they can contact us through the appropriate buttons or subscribe to the weekly newsletter.
 
@@ -41,7 +41,7 @@ If the user is facing any challenges, they can contact us through the appropriat
 JSFiddle or JavaScript Console
 
 ### Setup Instructions and Installation
-Fork or clone this repository to a location in your file system. git clone https://github.com/Ngina-G/Ngina-G.github.io
+Fork or clone this repository to a location in your file system. git clone https://github.com/Ngina-G/Chess-game.git
 Open terminal command line then navigate to the root folder of the application. cd Ngina-G.github.io
 Open index.html on your Browser.
 
