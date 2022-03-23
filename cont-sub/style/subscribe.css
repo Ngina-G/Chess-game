@@ -1,0 +1,97 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+}
+.sub-btn{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    top:0;
+    margin-left: 700%;
+}
+/* navbar */
+.sub-btn:hover{
+    background-color: #fff;
+    color: #D79D6B;
+}
+#contact-link{
+    text-align: center;
+    background-color: #1C2520;
+}
+/* main */
+.main-section{
+    background-color: #1C2520;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+/* form */
+.card{
+    background-color: #D79D6B;
+    width: 60vw;
+    align-self: center;
+    margin-left: 200px;
+}
+.form-control{
+    border-radius: 0px;
+    border: solid 1px #fff;
+    background-color: transparent;
+}
+.form-control::placeholder{
+    color: #fff;
+}
+.con-btn{
+    background-color: #1C2520;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    float: left;
+}
+/* cta section */
+.cta-section{
+    text-align: center;
+    background-color: #F4D2B4;
+}
+.cta-btn1{
+    background-color: #fff;
+    color: #D79D6B;
+    border: none;
+}
+.cta-btn1:hover{
+    background-color: #D79D6B;
+    color: #fff;
+    border: none;
+}
+
+
+@media (max-width: 991.98px) and (max-width: 767.98px) and (max-width: 575.98px){
+    .main-section{
+        background-color: #1C2520;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .main-title{
+        padding-top: 25px;
+    }
+    .main-content{
+        margin: 0;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+    .card-form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form-control{
+        margin: 10px;
+    }
+    .cta-content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
