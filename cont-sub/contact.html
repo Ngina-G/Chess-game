@@ -33,9 +33,7 @@
                         <a class="nav-link text-white " href="/cont-sub/contact.html">Contact us</a>
                     </li>
                 </ul>
-                <form class="form-inline ">
-                    <a href="/cont-sub/subscribe.html"><button class="btn btn-outline-success sub-btn " type="submit">Subscribe</button></a>
-                </form>
+                <a href="/cont-sub/subscribe.html"><button class="btn btn-outline-success sub-btn " type="button">Subscribe</button></a>
             </div>
         </nav>
     </header>
@@ -43,19 +41,43 @@
         <section class="main-section m-lg-3 p-lg-5 text-white" style="text-align: center;">
             <div class="main-content">
                 <div class="main-content">
-                    <h2 class="main-title mb-3">Ready to learn more?</h2>
-                    <p class="main-para m-lg-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt consectetur, numquam temporibus ipsam totam illo quas ea id magnam quos explicabo officiis recusandae a nihil aspernatur corrupti omnis quibusdam.</p>
+                    <h2 class="main-title mb-3">How about some alone time?</h2>
+                    <p class="main-para m-lg-4 ">Don't suffer alone! Send us a shouout and we will jump straight into your DMs for a one on one. Just you, us and chess ;)</p>
                 </div>
                 <br>
 
                 <div class="card">
-                    
+                    <div class="m-5">
+                        <form class="col-3 align-items-center d-flex flex-column mt-lg-1 pt-2 card-form" >
+                            <div class="d-flex m-lg-3 card-form">
+                                <div class="col-auto">
+                                    <input type="text" class="form-control" placeholder="First Name" id="InputFName" >
+                                </div>
+                                <div class="col-auto">
+                                    <input type="text" class="form-control" placeholder="Last Name" id="InputLName" >
+                                </div>
+                            </div>
+                        </form>
+                            <div class="col-11 m-lg-3 pb-2">
+                                <input type="email" class="form-control" placeholder="Email address" d="InputEmail1">
+                            </div>
+                            <div class="m-lg-3 mb-5 pb-5">
+                                <button class="btn btn-outline-success con-btn " type="submit" id="submitButton">Submit</button>
+                            </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-
+        <section class="cta-section ">
+            <div class="cta-content d-flex flex-lg-row align-items-center justify-content-center pb-4">
+                <h4 class="cta-para mt-3 m-lg-3 pt-5">OR subscribe to our weekly newsletter!</h4>
+                    <form action="" class="pt-5">
+                        <a href="/cont-sub/subscribe.html"><button class="btn btn-outline-success  cta-btn1" type="button">Subscribe</button></a>
+                    </form>
+            </div>
+        </section>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
