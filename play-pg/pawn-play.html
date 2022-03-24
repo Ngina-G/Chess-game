@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/play-pg/style/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/knight/css/knight.css">
+    <link rel="stylesheet" href="/play-pg/style/play.css">
+    <title>Rhythm Play</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+            <a class="navbar-brand text-white" href="/index.html">Rhythm</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white " href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white " href="#">Play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white " href="/cont-sub/contact.html">Contact us</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <a href="/cont-sub/subscribe.html"><button class="btn btn-outline-success sub-btn " type="submit">Subscribe</button></a>
+                </form>
+            </div>
+        </nav>
+
+        <section>
+            <div class="banner">
+                <h1 class="banner-title pt-5 pb-3">Let’s Get Started with The Pawn</h1>
+                <p class="banner-para mb-4 pb-3">Chess is fun let us show you!!</p>
+                    <div class="banner-links d-flex justify-content-center mb-5 mt-2">
+                        <a href="/play-pg/pawn-play.html"><button class="btn btn-outline-success m-lg-3 banner-btn">The Pawn</button></a>
+                        <a href="/play-pg/bishop-play.html"><button class="btn btn-outline-success m-lg-3 banner-btn">The Bishop</button></a>
+                        <a href="/play-pg/knight-play.html"><button class="btn btn-outline-success m-lg-3 banner-btn">The Knight</button></a>
+                        <a href="/play-pg/rook-play.html"><button class="btn btn-outline-success m-lg-3 banner-btn">The Rook</button></a>
+                        <a href="/play-pg/queen-play.html"><button class="btn btn-outline-success m-lg-3 banner-btn">The Queen</button></a>
+                        <a href="/play-pg/play.html"><button class="btn btn-outline-success m-lg-3 banner-btn">The King</button></a>
+                    </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <div>.</div>
+        <section class="description d-flex flex-row m-lg-4">
+            <div class="description-image">
+                <img src="/assets/javier-ezpeleta-cuoTAEKN1ho-unsplash.jpg" alt="Responsive image" class="img-fluid h-100">
+            </div>
+            <div class="description-content d-flex flex-column justify-content-center">
+                <h2 class="description-title pt-1 pb-2">Pawn</h2>
+                <p class="description-text">The pawn is the least powerful chess piece, but it can be promoted into any other chess piece (except for a king).
+                    A pawn moves forward one square unless it is that pawn's first move. If it is the pawn's first move, then it can move one or two squares. Please note that if a pawn has already been moved, it can never move two squares again.
+                    </p>
+                
+                <section id="section02" class="demo" style="text-align: right">
+                    <a href="#table"><span></span></a>
+                </section>
+                    <script class="demo-script">
+                        $(function() {
+                            $('a[href*=#]').on('click', function(e) {
+                                e.preventDefault();
+                                $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+                            });
+                        });
+                    </script>
+            </section>
+            </div>
+        </section>
+        <div>.</div>
+
+<!-- input the table here using <div><script></script></div> -->
+        <div id="table" class="m-lg-5">
+
+            <div class="knightBoard m-lg-2"></div>
+            <script src="/knight/js/board.js"></script>
+
+        </div>
+    </main>
+
+    <footer>
+        <section class="cta-section mt-5">
+            <h2 class="cta-title pt-5">Would you like to learn more about chess?</h2>
+            <div class="cta-content d-flex flex-lg-row align-items-center justify-content-center pb-4">
+                <p class="cta-para mt-3 m-lg-3">Subscribe to our Newsletter or contact us for a 
+                    one-on-one session with our in-house grandmaster!</p>
+
+                    <form action="">
+                        <a href="/cont-sub/subscribe.html"><button class="btn btn-outline-success  cta-btn1 m-lg-3" type="button">Subscribe</button></a>
+                    </form>
+                    <form action="">
+                        <a href="/cont-sub/contact.html"><button class="btn btn-outline-success  cta-btn2 m-lg-3" type="button">Contact us</button></a>
+                    </form>
+            </div>
+        </section>
+
+        <section id="contact-link" class=" d-flex flex-column justify-content-center ">
+            <a href="/index.html" style="text-decoration: none;"><h5 class="contact-logo mt-5 pt-5 pb-3 text-white">Rhythm</h5></a>
+            <hr/>
+            <div class="contact-content pb-4 pt-2">
+                <div class="icons text-white">
+                    <a href="tel:+254729160861" class="fa fa-phone-square"></a>
+                    <a href="https://api.whatsapp.com/send?phone=254778593480" class="fa fa-whatsapp"></a>
+                    <a href="https://www.instagram.com/gitau_ngina/" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/ngina-gitau-9319bb180" class="fa fa-linkedin-square"></a>
+                </div>
+                <p class="contact-para text-white">
+                    © Rhythm, Inc. 2022. 
+                </p>
+                <p class="contact-para text-white">
+                    Rhythm of chess! Rhythm of the mind!
+                </p>
+            </div>
+            
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- <script src="/js/index.js"></script> -->
+</html>
