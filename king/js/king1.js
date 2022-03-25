@@ -1,22 +1,22 @@
 "use strict";
-const chessBoard = document.querySelector(".knightBoard");
-function possibleKnightCoordinates(x=1, y=1) {
+const chessBoard = document.querySelector(".kingBoard");
+function possibleKingCoordinates(x=1, y=1) {
   let anotherplace = [];
-  let myCoordinates = [
-    { x: x + 1, y: y + 2 },
-    { x: x + 2, y: y + 1 },
-    { x: x + 2, y: y - 1 },
-    { x: x + 1, y: y - 2 },
-    { x: x - 1, y: y - 2 },
-    { x: x - 2, y: y - 1 },
-    { x: x - 2, y: y + 1 },
-    { x: x - 1, y: y + 2 },
-  ];
+ let myCoordinates = [
+   { x: x, y: y + 1 },
+   { x: x + 1, y: y + 1 },
+   { x: x + 1, y: y },
+   { x: x + 1, y: y - 1 },
+   { x: x, y: y - 1 },
+   { x: x - 1, y: y - 1 },
+   { x: x - 1, y: y },
+   { x: x - 1, y: y + 1 },
+ ];
   for (let i = 0; i < myCoordinates.length; i++) {
     anotherplace.push([myCoordinates[i].x, myCoordinates[i].y]);
   }
   return anotherplace;
-  console.log(possibleKnightCoordinates());
+  console.log(possibleKingCoordinates());
 };
 // // get valid coordinates
 // function validCoordinates (arr, a, b){
@@ -125,7 +125,7 @@ function singleTile(c, x, y, p = false, validCo = []) {
   div.setAttribute("onclick", `func(${x},${y})`);
   if (p) {
     let i = document.createElement("i");
-    i.classList.add("fa-solid", "fa-chess-knight", "fa-3x", "damn");
+    i.classList.add("fa-solid", "fa-chess-king", "fa-3x", "damn");
     div.appendChild(i);
   }
   if (cordinateExists(validCo, x, y)) {
@@ -143,7 +143,7 @@ const my = (x, y) => {
   let div = document.createElement("table");
   let another = document.getElementById("root");
   let k = 1;
-  var validCo = possibleKnightCoordinates(x, y);
+  var validCo = possibleKingCoordinates(x, y);
   console.log(validCo);
   for (var i = 1; i < 9; i++) {
     var row = document.createElement("tr");
@@ -244,7 +244,7 @@ function myChessBoard(x, y) {
   let cont = document.createElement("div");
 
   let k = 1;
-  var validCo = possibleKnightCoordinates(x, y);
+  var validCo = possibleKingCoordinates(x, y);
   for (var i = 1; i < 9; i++) {
     let row = document.createElement("div");
     let col = document.createElement("div");
