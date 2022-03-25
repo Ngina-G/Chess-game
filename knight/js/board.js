@@ -225,7 +225,19 @@ function diag(x, y) {
   }
   return arr;
 }
-
+function func(x, y) {
+  console.log(x, y);
+  let root = document.getElementById("root");
+  let finale = my(x, y);
+  console.log(root.firstChild);
+  removeAllChildNodes(root);
+  root.appendChild(finale);
+}
+function removeAllChildNodes(parent) {
+  while (parent.firstChild) {
+    parent.removeChild(parent.firstChild);
+  }
+}
 function myChessBoard(x, y) {
   let parentCont = document.createElement("div");
   parentCont.classList.add("parentCont");
