@@ -11,7 +11,6 @@ function display(){
   if(anotherCoordinate === "" || anotherCoordinate.length > 2 || !anotherCoordinate.charAt(0).match(regex)||anotherCoordinate.charAt(1)>8 || anotherCoordinate.charAt(1)<1){
 
   };
-
 };
 
 // const myBoard = () => {
