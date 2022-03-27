@@ -98,4 +98,6 @@ function chessBoard(x, y) {
   parentCont.appendChild(cont);
   return parentCont;
 }
+
 document.getElementById("root").appendChild(chessBoard(1, 1));
+
