@@ -18,7 +18,7 @@ A web application that intorduces beginners in chess to the dynamic move of the 
 <img  align="center" src="assets/readme/landing.png" alt="Input-form" />
 <br/>
 
-### Check live demonstration <a href="https://sparkling-pavlova-c7651e.netlify.app/"><strong>here</strong></a>
+### Check live demonstration <a href="[https://sparkling-pavlova-c7651e.netlify.app/](https://zingy-treacle-926da6.netlify.app/)"><strong>here</strong></a>
 <br>
  
 ## Description
